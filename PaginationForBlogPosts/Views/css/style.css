@@ -1,0 +1,49 @@
+body {
+    font-size: 19px;
+}
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+form input {
+    width: 90%;
+    margin-bottom: 5px;
+}
+.msg {
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.postRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.blogPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.post {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pagination {
+    text-align: center;
+}
